@@ -1,3 +1,112 @@
 h1{
 	width: 100%;
+
+
+}
+.big-box{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.left-box{
+	width: 100%;
+	height: 88vh;
+	background-color: #ff5079;
+}
+.title{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-m{
+	font-size: 120px;
+	font-family: 'Monoton', sans-serif;
+}
+.page-2{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.side-text{
+	font-family: 'Monoton', cursive;
+}
+.sub-big{
+	padding-top: 40px;
+	font-family: 'Abril Fatface', cursive;
+	color: black;
+}
+p{
+	color: #666666;
+	font-size: 18px;
+	padding-top: 50px;
+	font-family: 'Abril Fatface', cursive;
+}
+.big-a{
+	color:#ff5079;
+	font-size: 100px;
+
+}
+.dot{
+	color: #ff5079;
+}
+.slide-box-in{
+  margin-top: 150px;
+	background-color: black;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+h2{
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	font-family: 'Abril Fatface', cursive;
+}
+.web-d{
+	padding-top: 70px;
+}
+.left-box {
+  animation-duration: 2s;
+  animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes slideboxin {
+  from {
+    right: -110%;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+.animated{
+	animation-duration: 2s;
+	animation-delay: 2s;
+}
+
+.slide-box-in{
+
+}
+.blocker{
+
+}
+.slideboxinanim{
+	overflow: hidden;
+  position: relative;
+	animation-duration: 2s;
+	animation-name: slideboxin;
+	animation-fill-mode: forwards;
 }
