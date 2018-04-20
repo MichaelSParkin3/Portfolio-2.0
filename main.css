@@ -101,12 +101,13 @@ h2{
 
 }
 .blocker{
-
+	visibility: hidden;
 }
 .slideboxinanim{
 	overflow: hidden;
   position: relative;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-name: slideboxin;
 	animation-fill-mode: forwards;
+	visibility: visible;
 }

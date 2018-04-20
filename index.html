@@ -9,7 +9,8 @@
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   	<link rel="stylesheet" type="text/css" href="main.css">
-  	<script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.visible.min.js"></script>
     <script src="jquery.nicescroll.js"></script>
     <script type="text/javascript" src="javascript.js"></script>
     <meta charset="UTF-8">
@@ -54,7 +55,7 @@
 
     <div class="page-2">
       <div class="row">
-        <div class="col-md-6"><h1 class="big-m big-a text-center">About</h1></div>
+        <div class="col-md-6"><h1 id="about" class="big-m big-a text-center">About</h1></div>
         <div class="col-md-3"></div>
         <div class="col-md-3"></div>
       </div>
@@ -65,10 +66,10 @@
           <p class="text-center">I'm a young student aspiring to be a front end developer. <br />I'm always creating and learning by doing.</p>
         </div>
         <div class="col-md-6">
-          <div class="blocker">
+          <div id="blockerid" class="blocker">
           <div class="row slide-box-in">
             <div class="col-md-6">
-              <h2 class="text-center"><span class="dot">• </span>Design<span class="dot"> •</span></h2>
+              <h2 id="design" class="text-center"><span class="dot">• </span>Design<span class="dot"> •</span></h2>
               <p class="text-center">Web Design<br />UI Design<br />Responsive design<br />Mobile & Tablet</p>
               <h2 class="text-center web-d"><span class="dot">• </span>Web Development<span class="dot"> •</span></h2>
               <p class="text-center">Front End<br />Responsive design<br />Mobile & Tablet</p>
