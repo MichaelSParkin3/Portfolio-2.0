@@ -5,6 +5,8 @@
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,15 +22,29 @@
   <body>
 
     <div class="title">
-      <h1 class="big-m animated fadeIn">M</h1>
+      <h1 id="big-m" class="big-m animated fadeIn">M</h1>
 
     </div>
+
+<div class="left-bar">
+
+</div>
+<div class="right-bar">
+<div class="social-right-container animated fadeInUp">
+<i class=" soc fab fa-github"></i>
+<i class=" soc fab fa-twitter"></i>
+<i class=" soc fab fa-discord"></i>
+<i class=" soc fab fa-linkedin-in"></i>
+</div>
+</div>
 
 <div class="big-box">
   	<div class="container-fluid">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">M</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -55,31 +71,33 @@
 
     <div class="page-2">
       <div class="row">
-        <div class="col-md-6"><h1 id="about" class="big-m big-a text-center">About</h1></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-6"><h1 id="about" class="big-m big-a about1">About</h1></div>
+        <div class="col-md-4"></div>
       </div>
 
       <div class="row">
-        <div class="col-md-6">
-          <h1 class="sub-big text-center"><span class="dot">• </span>Who I Am, <br />What I Do<span class="dot"> •</span></h1>
-          <p class="text-center">I'm a young student aspiring to be a front end developer. <br />I'm always creating and learning by doing.</p>
+        <div class="col-md-2"></div>
+        <div class="about-desc col-md-3">
+          <h1 class="sub-big about2">Who I Am, <br />What I Do<span class="dot"> •</span></h1>
+          <p class="about3">I'm a young student aspiring to be a front end developer. <br />I'm always creating and learning by doing.<br /></p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div id="blockerid" class="blocker">
           <div class="row slide-box-in">
-            <div class="col-md-6">
-              <h2 id="design" class="text-center"><span class="dot">• </span>Design<span class="dot"> •</span></h2>
-              <p class="text-center">Web Design<br />UI Design<br />Responsive design<br />Mobile & Tablet</p>
-              <h2 class="text-center web-d"><span class="dot">• </span>Web Development<span class="dot"> •</span></h2>
-              <p class="text-center">Front End<br />Responsive design<br />Mobile & Tablet</p>
+            <div class="col-md-5">
+              <h2 id="design" class="skill"><span class="dot">• </span>Design<span class="dot"> •</span></h2>
+              <p class="skill">Web Design<br />UI Design<br />Responsive design<br />Mobile & Tablet</p>
+              <h2 class="skill web-d"><span class="dot">• </span>Web Development<span class="dot"> •</span></h2>
+              <p class="skill">Front End<br />Responsive design<br />Mobile & Tablet</p>
             </div>
-            <div class="col-md-6">
-              <h2 class="text-center"><span class="dot">• </span>Tools I Use<span class="dot"> •</span></h2>
-              <p class="text-center">HTML<br />CSS<br />Javascript<br />Java<br />Jquery<br />C++</p>
-              <h2 class="text-center"><span class="dot">• </span>I Dabble In<span class="dot"> •</span></h2>
-              <p class="text-center">Android Development</p>
+            <div class="col-md-5">
+              <h2 class="skill"><span class="dot">• </span>Tools I Use<span class="dot"> •</span></h2>
+              <p class="skill">HTML<br />CSS<br />Javascript<br />Java<br />Jquery<br />C++</p>
+              <h2 class="skill"><span class="dot">• </span>I Dabble In<span class="dot"> •</span></h2>
+              <p class="skill">Android Development</p>
             </div>
+            <div class="col-md-2"></div>
           </div>
         </div>
 
@@ -89,11 +107,64 @@
     </div>
 
     <div class="page-3">
-      <div class="row">
-        <div class="col-md-5"></div>
-        <div class="col-md-7"></div>
+
+
+
+
+
+    <div class="project-title-row row">
+      <div class="col-md-5">
+        <h1 class="big-m project-title-h1">Projects</h1>
       </div>
+      <div class="col-md-7"></div>
     </div>
+
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="project-desc-container project-desc-container-1">
+        <h1 class="project-desc-title">Weather App</h1>
+        <p class="project-desc-p">Simple app that will display the weather in your area on screen. Button the convert between celsius and farenheit is provided. Practice using API's, JSON, and jquery.</p>
+
+      </div>
+      </div>
+      <div class="col-md-7"><img class="project-img-1" src="img/weatherApp.png" alt="weatherApp"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="project-desc-container project-desc-container-2">
+        <h1 class="project-desc-title">Quote Generator</h1>
+        <p class="project-desc-p">Simple quote generator, with every quote button click comes a random quote and color. Click the twitter icon to tweet the present quote. Animations added to bring attention to buttons. Practice using API's, JSON, and jquery.</p>
+
+      </div>
+      </div>
+      <div class="col-md-7"><img class="project-img-2" src="img/quoteGenerator.png" alt="quoteGenerator"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="project-desc-container project-desc-container-3">
+        <h1 class="project-desc-title">Twitch Viewer</h1>
+        <p class="project-desc-p">Made my own personal twitch viewer for all my favorite streamers. Filter buttons to filter through online and offline channels. Animation to make online channels look clickable. Clicking them embeds a large live stream. Practice using API's, JSON, and jquery.</p>
+
+      </div>
+      </div>
+      <div class="col-md-7"><img class="project-img-3" src="img/twitchViewer.png" alt="twitchViewer"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="project-desc-container project-desc-container-4">
+        <h1 class="project-desc-title">Bootstrap Portfolio</h1>
+        <p class="project-desc-p">Simple portfolio site made after learning bootstrap.</p>
+
+      </div>
+      </div>
+      <div class="col-md-7"><img class="project-img-4" src="img/bootstrapPortfolio.png" alt="bootstrapPortfolio"></div>
+    </div>
+
 
   </div>
 

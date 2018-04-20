@@ -15,6 +15,66 @@ $( document ).ready(function() {
       $( ".blocker" ).addClass( "slideboxinanim" );
     }
 
+    if ($('.project-img-1').visible(true)) {
+      console.log("blocker");
+      $( ".project-img-1" ).addClass( "slideboxinanim" );
+    }
+
+    if ($('.project-img-2').visible(true)) {
+      console.log("blocker");
+      $( ".project-img-2" ).addClass( "slideboxinanim" );
+    }
+
+    if ($('.project-img-3').visible(true)) {
+      console.log("blocker");
+      $( ".project-img-3" ).addClass( "slideboxinanim" );
+    }
+
+    if ($('.project-img-4').visible(true)) {
+      console.log("blocker");
+      $( ".project-img-4" ).addClass( "slideboxinanim" );
+    }
+
+    if ($('.about1').visible(true)) {
+      console.log("blocker");
+      $( ".about1" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.about2').visible(true)) {
+      console.log("blocker");
+      $( ".about2" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.about3').visible(true)) {
+      console.log("blocker");
+      $( ".about3" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.project-desc-container-1').visible(true)) {
+      console.log("blocker");
+      $( ".project-desc-container-1" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.project-desc-container-2').visible(true)) {
+      console.log("blocker");
+      $( ".project-desc-container-2" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.project-desc-container-3').visible(true)) {
+      console.log("blocker");
+      $( ".project-desc-container-3" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.project-desc-container-4').visible(true)) {
+      console.log("blocker");
+      $( ".project-desc-container-4" ).addClass( "animated fadeInUp" );
+    }
+
+    if ($('.project-title-h1').visible(true)) {
+      console.log("blocker");
+      $( ".project-title-h1" ).addClass( "animated fadeInUp" );
+    }
+
   });
 
 });
