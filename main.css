@@ -1,3 +1,4 @@
+html, body { overflow-x: hidden; }
 body{
 	background-color: #222629;
 }
@@ -30,6 +31,7 @@ img{
 	display:flex;
     align-items: center;
     justify-content: center;
+		left: -0.0%;
 }
 .big-m{
 	color: #ffffff;
@@ -210,7 +212,7 @@ a {
 }
 .email{
 	color: #8ac832;
-	padding: 50px;
+	padding-top: 50px;
 }
 .email:hover{
 	color: white;
@@ -218,7 +220,7 @@ a {
 .soc2{
 	font-size: 60px;
 	text-align: center;
-	padding: 20px;
+	padding: 0px;
 	color: #8ac832;
 	width:24.5%;
 }
@@ -227,8 +229,10 @@ a {
 	color: white;
 }
 .social-container-2{
-padding:50px;
+width: 100%;
+padding-top:40px;
+padding-bottom:90px;
 }
 .page-4{
-	padding: 80px;
+	padding-top: 80px;
 }
