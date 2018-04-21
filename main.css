@@ -38,6 +38,9 @@ img{
 	font-size: 120px;
 	font-family: 'Monoton', sans-serif;
 }
+.navbar-brand{
+	font-family: 'Abril Fatface', cursive;
+}
 .page-2{
 	padding-top: 90px;
 	padding-bottom: 90px;
@@ -176,6 +179,7 @@ img{
 }
 .project-title-h1{
 	margin-bottom: 90px;
+	visibility: hidden;
 }
 .tool{
 	font-size: 40px;
@@ -189,6 +193,9 @@ p.skill{
 .project-desc-title{
 	color: #8ac832;
 	margin-top: 60px;
+}
+.project-desc-container{
+	visibility: hidden;
 }
 h2.skill{
 	color: #4e5153;
@@ -235,4 +242,13 @@ padding-bottom:90px;
 }
 .page-4{
 	padding-top: 80px;
+}
+a{
+	cursor: pointer;
+}
+.about1, .about2, .about3{
+	visibility: hidden;
+}
+.visible{
+	visibility: visible;
 }

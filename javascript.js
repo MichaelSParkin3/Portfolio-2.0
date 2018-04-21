@@ -37,44 +37,64 @@ $( document ).ready(function() {
 
     if ($('.about1').visible(true)) {
       console.log("blocker");
-      $( ".about1" ).addClass( "animated fadeInUp" );
+      $( ".about1" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.about2').visible(true)) {
       console.log("blocker");
-      $( ".about2" ).addClass( "animated fadeInUp" );
+      $( ".about2" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.about3').visible(true)) {
       console.log("blocker");
-      $( ".about3" ).addClass( "animated fadeInUp" );
+      $( ".about3" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.project-desc-container-1').visible(true)) {
       console.log("blocker");
-      $( ".project-desc-container-1" ).addClass( "animated fadeInUp" );
+      $( ".project-desc-container-1" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.project-desc-container-2').visible(true)) {
       console.log("blocker");
-      $( ".project-desc-container-2" ).addClass( "animated fadeInUp" );
+      $( ".project-desc-container-2" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.project-desc-container-3').visible(true)) {
       console.log("blocker");
-      $( ".project-desc-container-3" ).addClass( "animated fadeInUp" );
+      $( ".project-desc-container-3" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.project-desc-container-4').visible(true)) {
       console.log("blocker");
-      $( ".project-desc-container-4" ).addClass( "animated fadeInUp" );
+      $( ".project-desc-container-4" ).addClass( "animated fadeInUp visible" );
     }
 
     if ($('.project-title-h1').visible(true)) {
       console.log("blocker");
-      $( ".project-title-h1" ).addClass( "animated fadeInUp" );
+      $( ".project-title-h1" ).addClass( "animated fadeInUp visible" );
     }
 
   });
+
+
+$('.nav-about').on('click', function(event) {
+  $('html, body').animate({
+    scrollTop: $("#about").offset().top
+}, 1000);
+});
+
+$('.nav-projects').on('click', function(event) {
+  $('html, body').animate({
+    scrollTop: $(".project-title-h1").offset().top
+}, 1000);
+});
+
+$('.nav-contact').on('click', function(event) {
+  $('html, body').animate({
+    scrollTop: $(".email1").offset().top
+}, 1000);
+});
+
 
 });
