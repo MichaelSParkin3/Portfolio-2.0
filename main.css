@@ -144,12 +144,16 @@ h2{
 
 }
 .soc{
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #8ac832;
+}
+.soc:hover{
+	font-size: 30px;
+	color: white;
 }
 .skill{
 	padding-left: 90px;
@@ -186,4 +190,45 @@ p.skill{
 }
 h2.skill{
 	color: #4e5153;
+}
+@keyframes pic-hover {
+  from {
+    width: 90%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+img:hover{
+	background-color: white;
+
+
+}
+a {
+    text-decoration: none !important;
+}
+.email{
+	color: #8ac832;
+	padding: 50px;
+}
+.email:hover{
+	color: white;
+}
+.soc2{
+	font-size: 60px;
+	text-align: center;
+	padding: 20px;
+	color: #8ac832;
+	width:24.5%;
+}
+.soc2:hover{
+	font-size: 80px;
+	color: white;
+}
+.social-container-2{
+padding:50px;
+}
+.page-4{
+	padding: 80px;
 }
