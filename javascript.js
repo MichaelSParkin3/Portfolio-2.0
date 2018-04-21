@@ -77,6 +77,7 @@ $( document ).ready(function() {
 
   });
 
+//Scroll to events for navbar
 
 $('.nav-about').on('click', function(event) {
   $('html, body').animate({

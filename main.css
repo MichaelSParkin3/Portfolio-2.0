@@ -1,6 +1,14 @@
 html, body { overflow-x: hidden; }
 body{
 	background-color: #222629;
+
+}
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 .bg-dark{
  	background-color: #222629!important;
