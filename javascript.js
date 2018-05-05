@@ -8,7 +8,7 @@ $( document ).ready(function() {
   Start of starfield gen----------------------------------
   */
     var width = $( window ).width();
-    var height = $( window ).height();
+    var height = $( window ).height() + 18;
 
 
     // Returns width of browser viewport
@@ -16,7 +16,7 @@ $( document ).ready(function() {
      console.log("vp "+$( window ).width());
     // Returns width of HTML document
     $( document ).width();
-    console.log("html "+$( document ).height());
+    console.log("html "+$( window ).height());
 
     var newField = '<canvas id="starfield" width="'+width+'" height="'+height+'"></canvas>'
 
