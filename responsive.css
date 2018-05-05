@@ -1,3 +1,23 @@
+@media screen and (max-width: 1199px) {
+
+  .icon-container{
+
+  }
+  .icon-con{
+
+  }
+  .about-icon{
+    width: 15%;
+  }
+  .about-img{
+    width: 15%;
+    margin-bottom: 10vh;
+  }
+  .slide-inner{
+  	margin-left: 5vw;
+  	margin-right: 5vw;
+  }
+}
 @media screen and (max-width: 820px) {
   .left-bar{
     display: none;
@@ -7,6 +27,9 @@
   }
   .big-box{
     padding: 0px;
+  }
+  .icon-con{
+display: none;
   }
 }
 @media screen and (max-width: 820px) {
@@ -21,7 +44,7 @@
     width: 100%;
     padding-top: 60px;
   }
-  
+
 }
 @media screen and (max-width: 589px) {
   .titles{
