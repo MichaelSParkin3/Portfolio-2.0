@@ -149,7 +149,8 @@ h2{
 	position: fixed;
 	right: 0px;
 	top: 0px;
-	display:table
+	display:table;
+	z-index: 1;
 }
 .social-right-container{
 	height: 100%;
