@@ -320,6 +320,8 @@ ul.navbar-nav{
 	color: white;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 20px;
+	position: relative;
+	z-index: 1;
 }
 #nav-item.nav-item a:hover{
 	color: #4286f4;
@@ -337,4 +339,8 @@ canvas {
     height: auto;
     background: none;
 		z-index: -1;
+}
+navbar{
+	position: fixed;
+	z-index: 1;
 }
