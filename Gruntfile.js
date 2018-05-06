@@ -19,7 +19,8 @@ module.exports = function (grunt) {
     uglify: {
       dist: {
         files: {
-          'javascript.min.js': ['javascript.js']
+          'javascript.min.js': ['javascript.js'],
+          'jquery.nicescroll.min.js': ['jquery.nicescroll.js']
         }
       }
     },
@@ -28,6 +29,7 @@ module.exports = function (grunt) {
     imagemin: {
       dynamic: {
         options: {
+          optimizationLevel: 3,
           progressive: true
             },
         files: [{
