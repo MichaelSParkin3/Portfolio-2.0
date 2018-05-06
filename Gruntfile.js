@@ -6,6 +6,21 @@ module.exports = function (grunt) {
     //Basic settings and info for plugins
     pkg: grunt.file.readJSON('package.json'),
 
+    //Plugin name without "grunt-contrib-" ------image-resize
+    image_resize: {
+    options: {
+      width: 950,
+      height: 355,
+      overwrite: true
+    },
+    files: {
+        'imgresize/calculator.png': 'img/calculator.png',
+        'imgresize/tictactoe.png': 'img/tictactoe.png',
+        'imgresize/twitchViewer.png': 'img/twitchViewer.png',
+        'imgresize/weatherApp.png': 'img/weatherApp.png'
+      },
+  },
+
     //Plugin name without "grunt-contrib-" ------CSSMIN
     cssmin: {
       combine: {
@@ -29,12 +44,12 @@ module.exports = function (grunt) {
     imagemin: {
       dynamic: {
         options: {
-          optimizationLevel: 7,
+          optimizationLevel: 3,
           progressive: true
             },
         files: [{
           expand: true,
-          cwd: 'img/',
+          cwd: 'imgresize/',
           src: ['**/*.{png,jpg,gif}'],
           dest: 'imgmin/'
         }]
@@ -44,11 +59,12 @@ module.exports = function (grunt) {
   });
 
   // load the plugins
+  grunt.loadNpmTasks('grunt-image-resize');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   //Do the tasks
-  grunt.registerTask('default', ['cssmin', 'uglify', 'imagemin']);
+  grunt.registerTask('default', ['image_resize', 'cssmin', 'uglify', 'imagemin']);
 
 };
