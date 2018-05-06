@@ -16,6 +16,9 @@ html {
 h1{
 	width: 100%;
 }
+.proof1, .proof2{
+	visibility: hidden;
+}
 .proj-img{
 	visibility: hidden;
 }
@@ -343,4 +346,41 @@ canvas {
 navbar{
 	position: fixed;
 	z-index: 1;
+}
+.proof-info {
+	padding-top: 3vh;
+}
+.proof-icon-container{
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20vh;
+	display: table;
+}
+
+.linkbtn{
+	width: 49%;
+	font-size: 80px;
+	animation: shrink3 1s;
+}
+.linkbtn:hover{
+	font-size: 110px;
+	color: white;
+	animation: grow3 1s;
+}
+@keyframes grow3 {
+	0%   { font-size: 80px; }
+  100% { font-size: 110px; }
+}
+@keyframes shrink3 {
+	0%   { font-size: 110px; }
+  100% { font-size: 80px; }
+}
+.page-2.5{
+	margin-top: 10vh;
+}
+.email1{
+	width: 40%;
+	display: table;
+	margin:auto;
 }

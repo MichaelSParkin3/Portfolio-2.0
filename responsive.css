@@ -48,6 +48,12 @@ display: none;
 }
 @media screen and (max-width: 589px) {
   .titles{
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .proof-title{
+    margin-bottom: 30px;
+  }
+  .proof-img{
+    display: none;
   }
 }
