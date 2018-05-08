@@ -257,7 +257,9 @@ a {
 	text-align: center;
 	padding: 0px;
 	color: #4286f4;
-	width:24.5%;
+	width:10%;
+	margin-left: 3%;
+	margin-right: 3%;
 	animation: shrink2 1s;
 }
 .soc2:hover{
@@ -276,9 +278,12 @@ a {
 }
 
 .social-container-2{
-width: 100%;
+width: 60%;
 padding-top:40px;
 padding-bottom:90px;
+display: table;
+margin: auto;
+margin-bottom: 10vh;
 }
 .page-4{
 	padding-top: 80px;
