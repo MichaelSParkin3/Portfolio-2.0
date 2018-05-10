@@ -120,8 +120,9 @@ $( window ).resize(function() {
 
 
   //enabling niceScroll plugin
-    $("#thisdiv").niceScroll({cursorcolor:"#00F"});
+  $("#thisdiv").niceScroll({cursorcolor:"#00F"});
   $("body").niceScroll();
+  $(".modal").niceScroll();
 
   console.log("js is on");
 
@@ -204,6 +205,11 @@ $( window ).resize(function() {
       $( ".proof2" ).addClass( "animated fadeInUp visible" );
     }
 
+    if ($('#proj-btn').visible(true)) {
+      console.log("blocker");
+      $( "#proj-btn" ).addClass( "animated fadeInUp visible" );
+    }
+
   });
 
 //Scroll to events for navbar
@@ -225,6 +231,53 @@ $('.nav-contact').on('click', function(event) {
     scrollTop: $(".email1").offset().top
 }, 1000);
 });
+
+
+
+/*
+THE MODAL BLOCK
+*/
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("proj-btn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+var used = false;
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    if ($( ".modal" ).hasClass( "fadeOutDown" )) {
+      $( ".modal" ).removeClass( "fadeOutDown" );
+    }
+    $( ".modal" ).addClass( "animated fadeInUp visible" );
+    $( ".project-desc-container-5" ).addClass( "project-desc-container-visible" );
+    $( ".project-img-5" ).addClass( "proj-img-visible" );
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  $( ".modal" ).addClass( "fadeOutDown" )
+
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+      $( ".modal" ).addClass( "fadeOutDown" )
+    }
+}
+
+
+/*
+THE MODAL BLOCK END
+*/
+
 
 
 });

@@ -17,6 +17,9 @@ module.exports = function (grunt) {
         'imgresize/calculator.png': 'img/calculator.png',
         'imgresize/tictactoe.png': 'img/tictactoe.png',
         'imgresize/twitchViewer.png': 'img/twitchViewer.png',
+        'imgresize/Pomodoro.png': 'img/Pomodoro.png',
+        'imgresize/Tribute.png': 'img/Tribute.png',
+        'imgresize/quoteGenerator.png': 'img/quoteGenerator.png',
         'imgresize/weatherApp.png': 'img/weatherApp.png'
       },
   },
